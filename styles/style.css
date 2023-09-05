@@ -148,20 +148,23 @@ p {
     margin-top: 130px;
     margin-bottom: 130px;
     display: flex;
-    justify-content: space-around;
-    padding-left: 200px;
+    justify-content: space-between;
+    gap:50px;
     align-items: center;
 }
-
+.section-content{
+    padding-left: 200px;
+    
+}
 .section-img img {
-    width: 600px;
+    width: 400px;
 }
 
 .section-img .img-2 {
-    width: 250px;
+    width: 150px;
     position: relative;
-    right: 700px;
-    top: 100px
+    right: 500px;
+    top: 40px
 }
 
 /* button */
